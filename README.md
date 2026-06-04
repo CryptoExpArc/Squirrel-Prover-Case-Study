@@ -4,6 +4,10 @@
 
 This project presents a new formal verification case study of simplified handshake protocol and examines the usability of Squirrel Prover. It is an evaluation of the practicality of applying Squirrel's existing framework to protocol verification in a post-quantum setting.
 
+The simplified handshake protocol
+<img width="844" height="328" alt="Handshake Protocol" src="https://github.com/user-attachments/assets/826e3615-cc01-45ba-b172-21441759137f" />
+
+
 
 ### Project Objectives:
 
@@ -40,7 +44,7 @@ Logic support Squirrel to structure verification work, and there are four compon
 
 The Protocol process models the communication behavior between protocol agents and then records execution traces for further analyze. 
 
-The Squirrel Prover also involves reachability and equivalence properties. Reachability properties reason about whether an adversary can obtain goals in all protocol traces. It often use timestamps, actions, and trace to describe. For example, the weak secrecy property need to prove that the adversary can obtain secret from frame frame@t is false. The frame@t contains all outputs observable before and up to t, representing the knowledge or available information of adversary.
+The Squirrel Prover also involves reachability and equivalence properties. Reachability properties reason about whether an adversary can obtain goals in all protocol traces. It often use timestamps, actions, and trace to describe. For example, the weak secrecy property need to prove that the adversary can obtain secret from frame `frame@t` is false. The `frame@t` contains all outputs observable before and up to `t`, representing the knowledge or available information of adversary.
 
 Equivalence properties more focus on the equivalence between a real system and an ideal system. The real and ideal systems are projections of the Protocol. To be more specific, the real system models the actual protocol, while the ideal system represents a perfectly secure version of the protocol. Instead of proving directly that an adversary cannot obtain a secret, Squirrel Prover proves that the adversary cannot distinguish interactions with the real system from interactions with the ideal system. If the two systems are indistinguishable, the desired security property follows under the corresponding computational assumptions.
 
@@ -58,6 +62,8 @@ During the verification of the real/ideal system proof, it observed that there a
 ### Academic Context
 
 This project was a Capstone Project in my last year of master degree(July 2025).
+
+Squirrel Prover Reference: https://squirrel-prover.github.io/
 
 
 
