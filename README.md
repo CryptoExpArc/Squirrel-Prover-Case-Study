@@ -33,16 +33,22 @@ The simplified handshake protocol
 
 ### Strengths of Squirrel Prover
 
-Squirrel Prover makes a significant step toward bridging symbolic verification techniques and computational cryptography within a single proof framework, thereby adapting protocol verification to the post-quantum setting.
+<img width="1674" height="740" alt="image" src="https://github.com/user-attachments/assets/e86ae2c3-f189-42b7-9733-26069905c587" />
+
+It is necessary to compare CryptoVerif, EasyCrypt, and Squirrel. Three of them aim to provide guarantees in the computational model. 
+
+CryptoVerif uses predefined primitives and supports stateful protocols. This makes it fast to use, but sometimes less flexible for new primitives. EasyCrypt is more detailed and expressive, which can introduce additional modeling overhead but makes it well suited to reasoning about properties of primitives. Unlike EasyCrypt, both CryptoVerif and Squirrel support verification of stateful protocols. The use of process algebra can be inconvenient for highly interactive protocols. 
+
+In terms of automation, Squirrel lies between the other two tools and is the first framework to provide completely mechanized protocol proofs using the CCSA approach. CryptoVerif uses indistinguishability-based oracle access to simulate adversary behavior, whereas EasyCrypt relies on a proof-oriented framework. Squirrel reasons about adversary knowledge and behavior through frames, traces and equivalence. Regarding hard-coded cryptographic hypotheses, verification often requires non-trivial syntactic checks and analysis of subterms. 
+
+Finally, for post-quantum support, EasyCrypt and Squirrel can be combined with EasyPQC and PQ-BC style reasoning to adapt to the post-quantum setting. Squirrel has already been used to verify a wide range of protocols, including properties such as authentication, unlinkability, secrecy and anonymity. An important trend is that Squirrel not only supports symbolic modeling but also extends to computational and post-quantum reasoning.
+
+Overall, Squirrel Prover makes a significant step toward bridging symbolic verification techniques and computational cryptography within a single proof framework, thereby adapting protocol verification to the post-quantum setting.
 
 * Expressive modeling language for symbolic protocols.
 * Support for equivalence and Reachability in proof.
 * Interactive verification through tactics and trace.
 * Strong support for post-quantum computational soundness.
-
-<img width="1674" height="740" alt="image" src="https://github.com/user-attachments/assets/e86ae2c3-f189-42b7-9733-26069905c587" />
-
-It is necessary to compare CryptoVerif, EasyCrypt, and Squirrel. Three of them aim to provide guarantees in the computational model. CryptoVerif uses predefined primitives and supports stateful protocols. This makes it fast to use, but sometimes less flexible for new primitives. EasyCrypt is more detailed and expressive, which can introduce additional modeling overhead but makes it well suited to reasoning about properties of primitives. Unlike EasyCrypt, both CryptoVerif and Squirrel support verification of stateful protocols. The use of process algebra can be inconvenient for highly interactive protocols. In terms of automation, Squirrel lies between the other two tools and is the first framework to provide completely mechanized protocol proofs using the CCSA approach. CryptoVerif uses indistinguishability-based oracle access to simulate adversary behavior, whereas EasyCrypt relies on a proof-oriented framework. Squirrel reasons about adversary knowledge and behavior through frames, traces and equivalence. Regarding hard-coded cryptographic hypotheses, verification often requires non-trivial syntactic checks and analysis of subterms. Finally, for post-quantum support, EasyCrypt and Squirrel can be combined with EasyPQC and PQ-BC style reasoning to adapt to the post-quantum setting. Squirrel has already been used to verify a wide range of protocols, including properties such as authentication, unlinkability, secrecy and anonymity. An important trend is that Squirrel not only supports symbolic modeling but also extends to computational and post-quantum reasoning.
 
 
 ### Technologies - Logic & Formal Verification with Reachability and Equivalence properties
