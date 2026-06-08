@@ -88,7 +88,14 @@ Squirrel Prover Reference: https://squirrel-prover.github.io/
 ## 2. Implementation and Analysis of Custom Merkle-Damgård Hash Function
 
 ### Custom MD Hash Function Overview and Results
+i) Deal with the input message: vector<string> split(string message)
+Split message, each 12 bits as a block for Merkle-Damg ard and custom hash
+If the last block is less than 12 bits, then add padding block "0"
 
+ii) The non-trivial custom hash: string customHash(string temp, string last_result)
+The input has 24 bits: 12 bits (splitted message) + 12 bits (iv or last result)
+Split the input again, make each 4 bits as a block
+According to S-box, replace the value of each block
 <img width="687" height="233" alt="image" src="https://github.com/user-attachments/assets/77a9950f-e4c9-4537-ba90-734c5926a4c3" />
 
 
