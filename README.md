@@ -10,7 +10,7 @@
   - [Discussion and Future Work](#discussion-and-future-work)
   - [Academic Context](#academic-context)
 - [2. Implementation and Analysis of Custom Merkle-Damgård(MD) Hash Function](#2-implementation-and-analysis-of-custom-merkle-damgård(md)-hash-function)
-  - [Custom MD Hash Function Results](#custom-md-hash-function-results)
+  - [Custom MD Hash Function Overview and Results](#custom-md-hash-function-overview-and-results)
   - [Function Discussion and Future Work](#function-discussion-and-future-work)
 
 ## 1. Secrecy Verification of Handshake Protocol using Squirrel Prover
