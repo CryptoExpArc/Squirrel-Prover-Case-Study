@@ -157,8 +157,7 @@ The partial output of Q2 c++ code:
 
 total test: 10000
 
-The effect of bit 1: 0.6544
-
+The effect of bit 1: 0.6544<br>
 The effect of bit 2: 0.6194
 
 The effect of bit 3: 0.5689
