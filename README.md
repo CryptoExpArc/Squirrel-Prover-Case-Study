@@ -12,7 +12,6 @@
 - [2. Implementation and Analysis of Custom Merkle-Damgård Hash Function](#2-implementation-and-analysis-of-custom-merkle-damgård-hash-function)
   - [Results](#results)
   - [Discussion and Future Work](#discussion-and-future-work)
-  - [Academic Context](#academic-context)
 
 ## 1. Secrecy Verification of Handshake Protocol using Squirrel Prover
 
@@ -80,7 +79,7 @@ During the verification of the real/ideal system proof, there are some limitatio
 
 ### Academic Context
 
-This project was a Capstone Project in my last year of master degree(July 2025).
+This project was a capstone project in my last year of master's degree(July 2025).
 
 Squirrel Prover Reference: https://squirrel-prover.github.io/
 
@@ -90,8 +89,15 @@ Squirrel Prover Reference: https://squirrel-prover.github.io/
 
 <img width="687" height="233" alt="image" src="https://github.com/user-attachments/assets/77a9950f-e4c9-4537-ba90-734c5926a4c3" />
 
+### Results
+
+
+
+
+### Discussion and Future Work
 
 Research Nostradamus attack(Stuck on diamond tree)
+
 
 
 
