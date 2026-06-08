@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [1. Secrecy Verification of Handshake Protocol using Squirrel Prover](#Secrecy Verification of Handshake Protocol using Squirrel Prover)
-- [2. Implementation and Analysis of Custom Merkle-Damgård Hash Function](#Implementation and Analysis of Custom Merkle-Damgård Hash Function)
+- [1. Secrecy Verification of Handshake Protocol using Squirrel Prover](#1-secrecy-verification-of-handshake-protocol-using-squirrel-prover)
+- [2. Implementation and Analysis of Custom Merkle-Damgård Hash Function](#2-implementation-and-analysis-of-custom-merkle-damgård-hash-function)
 
 ## 1. Secrecy Verification of Handshake Protocol using Squirrel Prover
 
