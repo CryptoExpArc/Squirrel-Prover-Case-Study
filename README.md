@@ -87,7 +87,7 @@ Squirrel Prover Reference: https://squirrel-prover.github.io/
 
 ## 2. Implementation and Analysis of Custom Merkle-Damgård Hash Function
 
-### Custom MD Hash Function Results
+### Custom MD Hash Function Overview and Results
 
 <img width="687" height="233" alt="image" src="https://github.com/user-attachments/assets/77a9950f-e4c9-4537-ba90-734c5926a4c3" />
 
