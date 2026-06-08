@@ -1,4 +1,9 @@
-# Project Experience
+# Project
+
+## Table of Contents
+
+- [1. Secrecy Verification of Handshake Protocol using Squirrel Prover](#Secrecy Verification of Handshake Protocol using Squirrel Prover)
+- [2. Implementation and Analysis of Custom Merkle-Damgård Hash Function](#Implementation and Analysis of Custom Merkle-Damgård Hash Function)
 
 ## 1. Secrecy Verification of Handshake Protocol using Squirrel Prover
 
