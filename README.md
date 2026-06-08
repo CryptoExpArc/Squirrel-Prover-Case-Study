@@ -5,13 +5,13 @@
 - [1. Secrecy Verification of Handshake Protocol using Squirrel Prover](#1-secrecy-verification-of-handshake-protocol-using-squirrel-prover)
   - [Project Objectives](#project-objectives)
   - [Strengths of Squirrel Prover](#strengths-of-squirrel-prover)
-  - [Technologies - Logic & Formal Verification with Reachability and Equivalence properties](##technologies---logic--formal-verification-with-reachability-and-equivalence-properties)
+  - [Technologies - Logic & Formal Verification with Reachability and Equivalence properties](#technologies---logic--formal-verification-with-reachability-and-equivalence-properties)
   - [Results](#results)
   - [Discussion and Future Work](#discussion-and-future-work)
   - [Academic Context](#academic-context)
-- [2. Implementation and Analysis of Custom Merkle-Damgård Hash Function](#2-implementation-and-analysis-of-custom-merkle-damgård-hash-function)
-  - [Results](#results)
-  - [Discussion and Future Work](#discussion-and-future-work)
+- [2. Implementation and Analysis of Custom Merkle-Damgård(MD) Hash Function](#2-implementation-and-analysis-of-custom-merkle-damgård(md)-hash-function)
+  - [Custom MD Hash Function Results](#custom-md-hash-function-results)
+  - [Function Discussion and Future Work](#function-discussion-and-future-work)
 
 ## 1. Secrecy Verification of Handshake Protocol using Squirrel Prover
 
@@ -87,14 +87,12 @@ Squirrel Prover Reference: https://squirrel-prover.github.io/
 
 ## 2. Implementation and Analysis of Custom Merkle-Damgård Hash Function
 
+### Custom MD Hash Function Results
+
 <img width="687" height="233" alt="image" src="https://github.com/user-attachments/assets/77a9950f-e4c9-4537-ba90-734c5926a4c3" />
 
-### Results
 
-
-
-
-### Discussion and Future Work
+### Function Discussion and Future Work
 
 Research Nostradamus attack(Stuck on diamond tree)
 
