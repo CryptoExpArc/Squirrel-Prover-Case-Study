@@ -1,4 +1,4 @@
-# research-experience
+# Project Experience
 
 ## 1. Secrecy Verification of Handshake Protocol using Squirrel Prover
 
@@ -72,8 +72,7 @@ Squirrel Prover Reference: https://squirrel-prover.github.io/
 <img width="687" height="233" alt="image" src="https://github.com/user-attachments/assets/77a9950f-e4c9-4537-ba90-734c5926a4c3" />
 
 
-
-## 3. Research Nostradamus attack(Stuck on diamond tree)
+Research Nostradamus attack(Stuck on diamond tree)
 
 
 
