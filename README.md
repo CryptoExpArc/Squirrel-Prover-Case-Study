@@ -114,14 +114,14 @@ The result has 24 bits, so it still needs to be split;<br>
 Split depends on the reminder of decimal number `hash_value_24`, ie: `dec_after_S_box_bit%2`.
 
 #### iii) Merkle-Damg ard-based hash function H: `string MD_H(string m)`<br>
-`split(m)`: split message function<br>;
-`MD_round`: the number of Merkle-Damg and unit<br>;
+`split(m)`: split message function;<br>
+`MD_round`: the number of Merkle-Damg and unit;<br>
 1^st round/unit: `customHash(splitted message m0, iv)`;<br>
 2^nd round/unit: `customHash(splitted message m1, last result)`;<br>
 Last round/unit: `customHash(splitted message m || PB, last result)` = final hash value.
 
 #### iv) Find collision: `string collision(string message)`<br>
-Burte force: try the integer number from 2^23 - 1 to 2^24 - 1 <br>
+Burte force: try the integer number from 2^23 - 1 to 2^24 - 1. <br>
 `MD_H(test_message)` == `MD_H(given message)`
 
 #### v) Avalanche effect: 
